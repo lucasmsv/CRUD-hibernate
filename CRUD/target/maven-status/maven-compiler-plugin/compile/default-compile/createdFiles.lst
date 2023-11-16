@@ -1,0 +1,4 @@
+br\com\dmn\dao\ProdutoDAO.class
+com\br\dmn\crud\run\Main.class
+br\com\dmn\crud\persistence\JPA.class
+br\com\dmn\crud\data\Produto.class
