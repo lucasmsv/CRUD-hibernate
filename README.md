@@ -27,8 +27,8 @@ A aplicação permite cadastrar produtos com informações como nome, marca, qua
 
 ## Configuração do Projeto
 
-1. No arquivo <i>CRUD/src/main/resources/META-INF/persistence.xml</i> altere os dados <i>url, user e password</i> para que você possa executar corretamente o código.
-2. Em <i>Project Files</i>, altere o arquivo <i>pom.xml</i> implementando os seguintes códigos logo abaixo de <i>`<packaging>jar</packaging>`</i>:
+1. No arquivo `CRUD/src/main/resources/META-INF/persistence.xml` altere os dados `url, user e password` para que você possa executar corretamente o código.
+2. Em `Project Files`, altere o arquivo `pom.xml` implementando os seguintes códigos logo abaixo de `<packaging>jar</packaging>`:
    ```
    <dependencies>
         <dependency>
@@ -49,5 +49,5 @@ A aplicação permite cadastrar produtos com informações como nome, marca, qua
 Execute o aplicativo utilizando o Maven:
 
 ```bash
-mvn clean install
+mvn clean install 
 mvn exec:java
